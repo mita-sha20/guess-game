@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+.box{
+    width: 500px;
+    padding: 20px 15px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.playerone , .playertwo{
+   margin-top: 50px; 
+}
+
+.playerone h2 , .playertwo h2{
+    margin-bottom:15px;
+}
+
+.playeroneinput ,.playertwoinput{
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 8px 15px;
+} 
+
+.playeronebtn , .playertwobtn{
+    padding: 10px 15px;
+    border:none;
+    background-color: blueviolet;
+    color: black;
+    border-radius: 10px;
+}
+
+.playertwo{
+    display: none;
+}
